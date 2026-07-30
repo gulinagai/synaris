@@ -27,6 +27,12 @@ Representa uma pessoa que receberá atendimento médico.
 
 ---
 
+## Telefone
+
+Representa o(s) números(s) de telefone para contato do paciente.
+
+---
+
 # Value Objects
 
 ## CPF
