@@ -27,12 +27,6 @@ Representa uma pessoa que receberá atendimento médico.
 
 ---
 
-## Telefone
-
-Representa o(s) números(s) de telefone para contato do paciente.
-
----
-
 # Value Objects
 
 ## CPF
@@ -57,6 +51,19 @@ Responsabilidades:
 - armazenar apenas valores válidos
 
 ---
+
+## Telefone
+
+Representa o(s) números(s) de telefone para contato do paciente.
+
+Responsabilidades:
+
+- validar formato
+- armazenar apenas valores válidos
+- garantir igualdade por valor
+
+---
+
 
 # Domain Services
 

@@ -1,30 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram id="der-pacientes" name="DER - Pacientes">
-    <mxGraphModel dx="808" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pac" parent="1" style="shape=swimlane;html=1;startSize=28;" value="&lt;div&gt;Paciente&lt;/div&gt;" vertex="1">
           <mxGeometry height="240" width="300" x="100" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="yucBBHf3q5zItDK-ki6I-2" parent="pac" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;PK id : BIGINT NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;nome : VARCHAR(150) NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;cpf : CHAR(11) NOT NULL UNIQUE&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;email : VARCHAR(255) NOT NULL UNIQUE&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;data_nascimento : DATE NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;sexo : CHAR(1) NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;criado_em : TIMESTAMP NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;atualizado_em : TIMESTAMP NOT NULL&lt;/span&gt;" vertex="1">
+        <mxCell id="yucBBHf3q5zItDK-ki6I-2" parent="pac" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;PK id : BIGINT NOT NULL AUTO-INCREMENT&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;nome : VARCHAR(150) NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;cpf : CHAR(11) NOT NULL UNIQUE&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;email : VARCHAR(255) NOT NULL UNIQUE&lt;br&gt;&lt;/span&gt;telefone: VARCHAR(20) NOT NULL &lt;span style=&quot;white-space: nowrap;&quot;&gt;data_nascimento : DATE NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;sexo : CHAR(1) NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;criado_em : TIMESTAMP NOT NULL&lt;/span&gt;&lt;br style=&quot;white-space: nowrap;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;atualizado_em : TIMESTAMP NOT NULL&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="300" x="10" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tel" parent="1" style="shape=swimlane;html=1;startSize=28;" value="Telefone" vertex="1">
-          <mxGeometry height="170" width="250" x="520" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="yucBBHf3q5zItDK-ki6I-1" parent="tel" style="text;whiteSpace=wrap;html=1;" value="PK id : BIGINT NOT NULL&lt;br&gt;FK paciente_id : BIGINT&lt;br&gt;numero : VARCHAR(20) NOT NULL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="230" x="10" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="e1" edge="1" parent="1" style="endArrow=none;html=1;" value="">
-          <mxGeometry relative="1" x="-0.0001" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="400" y="265" as="sourcePoint" />
-            <mxPoint x="520" y="265" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yucBBHf3q5zItDK-ki6I-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:N" vertex="1">
-          <mxGeometry height="30" width="60" x="430" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
